@@ -1,13 +1,11 @@
 import { useState } from 'react'
 import BottomAction from '../BottomAction'
 import Stepper from '../Stepper'
+import steps from 'src/steps'
 import './index.css'
 
-const steps = ['Source', 'Columns Mapping', 'Values Mapping', 'Details']
-// const steps = ['Source', 'Columns Mapping', 'Values Mapping']
-
 export default function ContentPage() {
-  const [currentStage, setCurrentStage] = useState(2)
+  const [currentStage, setCurrentStage] = useState(0)
 
   const onSetCurrentStage = (index: number) => {
     setCurrentStage(index)

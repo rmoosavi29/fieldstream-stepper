@@ -67,7 +67,6 @@ const Stepper: FC<Props> = ({ currentStage = 0, onSetCurrentStage, steps }) => {
           </div>
         </div>
       </div>
-      <div></div>
     </div>
   )
 }
