@@ -1,11 +1,11 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a pilot project to implement Stepper.
+Change [the file](src/steps/index.ts) to change the number and tag of the stepper.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `yarn`
 ### `yarn start`
 
 Runs the app in the development mode.\
