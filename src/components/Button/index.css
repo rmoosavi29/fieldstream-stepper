@@ -1,0 +1,78 @@
+.button {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  position: relative;
+  border-radius: 0;
+  padding: 0.75rem 1rem;
+  min-width: 140px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 0.5rem;
+  color: var(--white);
+  background-color: var(--gray-400);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button span {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--gray-700);
+}
+
+.button--primary {
+  background-color: var(--purple);
+}
+
+.button--primary:hover,
+.button--primary:active {
+  background-color: var(--dark-purple);
+}
+
+.button--secondary {
+  background-color: var(--orange);
+}
+
+.button--secondary:hover,
+.button--secondary:active {
+  background-color: var(--dark-orange);
+}
+
+.button svg,
+.button i {
+  display: inline-block;
+}
+
+.button:focus,
+.button.focus {
+  outline: 0;
+}
+
+.button.disabled,
+.button:disabled {
+  opacity: 0.65;
+}
+
+.button--primary:disabled:hover,
+.button--primary:disabled:active {
+  background-color: var(--purple);
+}
+
+.button--secondary:disabled:hover,
+.button--secondary:disabled:active {
+  background-color: var(--orange);
+}
+
+.button:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}

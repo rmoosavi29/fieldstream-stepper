@@ -1,0 +1,6 @@
+.header {
+  /* width: 100%; */
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: var(--gray-800);
+}

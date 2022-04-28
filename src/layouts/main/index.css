@@ -1,0 +1,19 @@
+.main-page {
+  background-color: var(--gray-100);
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  /* flex-direction: column;
+  align-items: stretch; */
+  /* justify-content: center; */
+  font-size: 1rem;
+  color: var(--gray-800);
+}
+
+.main-page--content {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

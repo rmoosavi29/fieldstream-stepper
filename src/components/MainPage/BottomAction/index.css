@@ -1,0 +1,15 @@
+.bottom-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-action__left {
+  display: flex;
+  gap: 14px;
+}
+
+.bottom-action__icon {
+  padding-right: 11px;
+  height: 11px;
+}

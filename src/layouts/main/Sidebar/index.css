@@ -1,0 +1,17 @@
+.sidebar {
+  padding: 1rem;
+  overflow: hidden;
+  color: var(--gray-800);
+  background-color: var(--purple);
+  width: 68px;
+  border-radius: 0 2rem 2rem 0;
+  position: relative;
+}
+
+.sidebar span {
+  transform: rotate(90deg);
+  position: absolute;
+  transform-origin: 0 0;
+  top: 45%;
+  text-transform: uppercase;
+}
