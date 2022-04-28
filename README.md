@@ -1,5 +1,6 @@
 This is a pilot project to implement Stepper.
 Change [the file](src/steps/index.ts) to change the number and tag of the stepper.
+The stepper has been implemented so that you can go to the previous and next steps using the buttons on the bottom of the page, but you can only go to the previous steps with the elements on top.
 
 ## Available Scripts
 
